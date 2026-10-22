@@ -475,6 +475,24 @@ try {
 
 ---
 
+## 七、怎么用这份仓库
+
+如果你明天就要开工，按这个顺序读：
+
+| 顺序 | 读什么 | 为什么 |
+|---|---|---|
+| 1 | 上面「二·六个阶段」 | 骨架。先知道有哪六步，再谈细节 |
+| 2 | `templates/BRIEF.md` | 你的第一份任务书，改四个常量就能用 |
+| 3 | `tools/gate_static.py` | 先跑一次 `--selftest`，看它怎么失败。**这一步别省** |
+| 4 | `templates/DISPATCH-PROMPT.md` | 派发前填一遍，逼自己去看参考图 |
+| 5 | `templates/ACCEPTANCE.md` | 收第一批交付前读 |
+| 6 | `docs/pitfalls-geometry.md` | 撞到渲染问题再翻（或者一开始就塞进 BRIEF） |
+| 7 | `docs/case-study.md` | 想看"具体怎么错的"再读；它是过程记录，不是教程 |
+
+整个仓库 2.5 MB，没有依赖，没有构建步骤，clone 下来就能读。
+
+---
+
 ## 文件
 
 ```
